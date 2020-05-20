@@ -8,3 +8,4 @@ if __name__ == "__main__":
     print "Processing %d points..." % len(pts)
     hm = heatmap.Heatmap()
     img = hm.heatmap(pts).save("classic.png")
+print("end")
